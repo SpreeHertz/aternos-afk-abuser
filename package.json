@@ -1,0 +1,14 @@
+{
+  "name": "aternos-afk-abuser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4.0.0",
+    "dotenv": "^16.0.1",
+    "mineflayer-auto-eat": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
