@@ -1,15 +1,19 @@
 const mineflayer = require('mineflayer')
 require('dotenv').config();
 const chalk = require('chalk');
+const fs = require('fs');
 
-console.log(chalk.blueBright.bold(`Logging into ${process.env.bot_username}...`));
+console.log(chalk.blueBright.bold(`Logging into ${process.env.playername}...`));
 
 // Create the bot
 const bot = mineflayer.createBot({
     host: process.env.host,
     port: parseInt(process.env.port),
-    username: process.env.username
+    username: process.env.playername
 })
+
+
+module.exports = bot;
 
 // Chat message
 bot.once('spawn', () => {
