@@ -7,11 +7,10 @@ console.log(chalk.blueBright.bold(`Logging into ${process.env.playername}...`));
 
 // Create the bot
 const bot = mineflayer.createBot({
-    host: process.env.host,
-    port: parseInt(process.env.port),
-    username: process.env.playername
+    host: process.env.host || 'localhost',
+    port: parseInt(process.env.port) || '25565',
+    username: process.env.playername || 'aternos-afk',
 })
-
 
 module.exports = bot;
 
@@ -39,3 +38,12 @@ for (const file of eFiles) {
 	console.log(chalk.magentaBright(`Event ${eventName}.js`) + chalk.blue(` has been loaded.`));
 }
 
+const utilFiles = fs.readdirSync("./src/utils").filter(file => file.endsWith(".js"));
+
+// Utils
+for (const file of utilFiles) {
+	const eventName = file.split(".")[0];
+
+	const event = require(`./src/utils/${file}`);
+	console.log(chalk.yellowBright(`UtiltyFile ${eventName}.js`) + chalk.blue(` has been loaded.`));
+}
