@@ -9,8 +9,10 @@
   "dependencies": {
     "chalk": "4.0.0",
     "dotenv": "^16.0.1",
+    "minecraft-data": "^3.4.0",
     "mineflayer": "^4.3.0",
-    "mineflayer-auto-eat": "^2.3.3"
+    "mineflayer-auto-eat": "^2.3.3",
+    "mineflayer-pathfinder": "^2.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
