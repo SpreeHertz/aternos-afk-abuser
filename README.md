@@ -9,4 +9,12 @@ aternos-afk-abuser abuses the AFK system and makes random actions to seem like i
 I'm not responsible for any damage caused by this software. Use it at your own risk. This was made for educational purposes only.
 
 
+### Chat Commands
+
+- `!botinfo`
+
+Returns EXP points & level, food saturation and health.
+
+
+
 
