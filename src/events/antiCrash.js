@@ -57,6 +57,6 @@ module.exports = () => {
 	});
 };
 
-bot.on('error', (err, origin) => {
+bot.on('error', (err) => {
 	console.log(chalk.redBright(`error`) + chalk.red(` ${process.env.playername} encountered an error. ${err || 'Unknown'}, Origin: ${origin || 'Unknown'}`));
 });
