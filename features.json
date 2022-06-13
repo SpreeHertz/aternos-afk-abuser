@@ -1,4 +1,8 @@
 {
     "botInfo": true,
-    "mobsToKill": true
+    "mobsToKill": true,
+    "autoConsumeFood": true,
+    "travelRandomDestinations": true,
+
+    "note": "At default, all of these features are enabled. In order to disable them, change the value to false (not recommended)."
 }
