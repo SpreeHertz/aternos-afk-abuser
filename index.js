@@ -47,3 +47,5 @@ for (const file of utilFiles) {
 	const event = require(`./src/utils/${file}`);
 	console.log(chalk.yellowBright(`UtiltyFile ${eventName}.js`) + chalk.blue(` has been loaded.`));
 }
+
+// 0x26e

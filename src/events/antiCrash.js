@@ -31,6 +31,12 @@ if (process.env.port === isNaN) {
 	console.log(chalk.yellowBright('warn') + chalk.red('It looks like the port you specified is not a number. Make sure you\'ve specified everything correctly. '));
 }
 
+bot.on('error', (err) => {
+	if (err.code === 'ECONNREFUSED') {
+		console.log(chalk.redBright('warn') + chalk.red('Failed to connect to the server. Make sure it\'s up and running.'))
+	}
+})
+
 // anti crash
 module.exports = () => {
 	process.on('unhandledRejection', (reason, p) => {
