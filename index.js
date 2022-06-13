@@ -1,4 +1,4 @@
-const mineflayer = require('mineflayer')
+const mineflayer = require('mineflayer');
 require('dotenv').config();
 const chalk = require('chalk');
 const fs = require('fs');
@@ -7,28 +7,25 @@ const { setTimeout } = require('timers/promises');
 console.log(chalk.blueBright.bold(`Logging into ${process.env.playername}...`));
 
 // Create the bot
-const bot = () => {
-	mineflayer.createBot({
-		host: process.env.host || 'localhost',
-		port: parseInt(process.env.port) || '25565',
-		username: process.env.playername || 'aternos-afk',
-	})
-}
-bot()
+const bot = mineflayer.createBot({
+	host: process.env.host || 'localhost',
+	port: parseInt(process.env.port) || '25565',
+	username: process.env.playername || 'aternos-afk',
+});
 
 module.exports = bot;
 
 // Chat message
 bot.once('spawn', () => {
-    bot.chat(`Started the script.`)
-})
+	bot.chat(`Started the script.`);
+});
 
 // Reconnect
 bot.on('end', () => {
-	console.log(chalk.redBright('warn') + chalk.red('The bot disconnected. Attempting to reconnect...'))
-	
+	console.log(chalk.redBright('warn') + chalk.red(' The bot disconnected. Attempting to reconnect...'));
+
 	setTimeout(bot, 5000);
-})
+});
 
 
 // Command handler
@@ -55,7 +52,7 @@ const utilFiles = fs.readdirSync("./src/utils").filter(file => file.endsWith(".j
 // Utils
 for (const file of utilFiles) {
 	const eventName = file.split(".")[0];
-
+	// eslint-disable-next-line no-unused-vars
 	const event = require(`./src/utils/${file}`);
 	console.log(chalk.yellowBright(`UtiltyFile ${eventName}.js`) + chalk.blue(` has been loaded.`));
 }

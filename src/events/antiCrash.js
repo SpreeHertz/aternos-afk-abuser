@@ -33,9 +33,9 @@ if (process.env.port === isNaN) {
 
 bot.on('error', (err) => {
 	if (err.code === 'ECONNREFUSED') {
-		console.log(chalk.redBright('warn') + chalk.red('Failed to connect to the server. Make sure it\'s up and running.'))
+		console.log(chalk.redBright('warn') + chalk.red(' Failed to connect to the server. Make sure it\'s up and running.'));
 	}
-})
+});
 
 // anti crash
 module.exports = () => {
@@ -56,7 +56,3 @@ module.exports = () => {
 		console.log(type, promise, reason);
 	});
 };
-
-bot.on('error', (err) => {
-	console.log(chalk.redBright(`error`) + chalk.red(` ${process.env.playername} encountered an error. ${err || 'Unknown'}, Origin: ${origin || 'Unknown'}`));
-});

@@ -5,9 +5,9 @@ const radarOptions = require('../../config.json');
 const bot = require('../../index');
 
 const options = {
-  host: radarOptions.radar_host || 'localhost', 
-  port: radarOptions.radar_port || '25565',         
-}
+	host: radarOptions.radar_host || 'localhost',
+	port: radarOptions.radar_port || '25565',
+};
 
 radarPlugin(bot, options);
 
