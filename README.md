@@ -8,6 +8,14 @@ aternos-afk-abuser abuses the AFK system and makes random actions to seem like i
 
 I'm not responsible for any damage caused by this software. Use it at your own risk. This was made for educational purposes only.
 
+### Features
+
+- Randomly travels destinations to bypass AFK system
+- Kills aggressive mobs on the way
+- Automatically consumes food if food saturation is low
+- Turn off/on features by changing values in [features.json]()
+- Warns in the console if the bot gets crashed, kicked, or disconnected
+- Radar (that can be viewed with your web browser) that shows the nearest entities
 
 ### Chat Commands
 
@@ -16,5 +24,12 @@ I'm not responsible for any damage caused by this software. Use it at your own r
 Returns EXP points & level, food saturation and health.
 
 
+### Libraries
 
+- mineflayer
+- nodemon 
+- mineflayer-auto-eat
+- mineflayer-pathfinder
+- mineflayer-radar
+- mineflayer-pvp
 
