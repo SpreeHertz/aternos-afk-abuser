@@ -1,4 +1,5 @@
 {
     "radar_port": 2048,
-    "radar_host": "localhost"
+    "radar_host": "localhost",
+    "webviewer_port": 5044
 }
