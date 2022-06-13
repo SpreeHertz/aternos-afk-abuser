@@ -1,0 +1,4 @@
+{
+    "radar_port": 2048,
+    "radar_host": "localhost"
+}
