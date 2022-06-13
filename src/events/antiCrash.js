@@ -12,23 +12,23 @@ if (!process.env.port) {
 // no host
 if (!process.env.host) {
 	console.log(chalk.yellowBright('warn') +
-    chalk.red(' You have not specified the host properly. If you\'re using a local server, it\'s recommended that you use localhost. Need help? Read the docs: https://sandmine.js.org'));
+    chalk.red(' You have not specified the host properly. This is where you should specify your Aternos server address.'));
 }
 
 // no username
-if (!process.env.bot_username) {
+if (!process.env.playername) {
 	console.log(chalk.yellowBright('warn') +
-    chalk.red(' You have not specified your bot username. Please specify it and run this project again. Need help? Read the docs: https://sandmine.js.org'));
+    chalk.red(' You have not specified your bot username. Please specify it and run this project again.'));
 }
 
 // if nothing
-if (!process.env.bot_username && !process.env.host && !process.env.port) {
-	console.log(chalk.yellowBright('warn') + chalk.red('You have not specified anything. Please read the docs by going to https://sandmine.js.org.'));
+if (!process.env.playername && !process.env.host && !process.env.port) {
+	console.log(chalk.yellowBright('warn') + chalk.red('You have not specified anything.'));
 }
 
 // isNaN
 if (process.env.port === isNaN) {
-	console.log(chalk.yellowBright('warn') + chalk.red('It looks like the port you specified is not a number. Make sure you\'ve specified everything correctly. Need help? Read the docs: https://sandmine.js.org'));
+	console.log(chalk.yellowBright('warn') + chalk.red('It looks like the port you specified is not a number. Make sure you\'ve specified everything correctly. '));
 }
 
 // anti crash
@@ -52,5 +52,5 @@ module.exports = () => {
 };
 
 bot.on('error', (err, origin) => {
-	console.log(chalk.redBright(`error`) + chalk.red(` ${process.env.bot_username} encountered an error. ${err || 'Unknown'}, Origin: ${origin || 'Unknown'}`));
+	console.log(chalk.redBright(`error`) + chalk.red(` ${process.env.playername} encountered an error. ${err || 'Unknown'}, Origin: ${origin || 'Unknown'}`));
 });
