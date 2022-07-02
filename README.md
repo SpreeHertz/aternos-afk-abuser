@@ -1,3 +1,9 @@
+![img](https://img.shields.io/github/downloads/SpreeHertz/aternos-afk-abuser/v1.0.0/total)
+![img](https://img.shields.io/github/v/release/SpreeHertz/aternos-afk-abuser)
+![img](https://img.shields.io/github/release-date/spreehertz/aternos-afk-abuser)
+![img](https://img.shields.io/github/last-commit/spreehertz/aternos-afk-abuser)
+![img](https://img.shields.io/github/languages/code-size/spreehertz/aternos-afk-abuser)
+
 # aternos-afk-abuser
 
 aternos-afk-abuser abuses the AFK system and makes random actions to seem like it's not a bot. With this, you can bypass the Aternos system where if the server is AFK, it automatically turns the server off.
