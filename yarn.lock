@@ -1146,9 +1146,9 @@ minecraft-data@^2.70.0, minecraft-data@^2.75.0, minecraft-data@^2.93.0:
   integrity sha512-0AhqzbIKb6WqPSF6qBevaPryeWOz545hLxt6q+gfJF8YIQX/YfkyX/nXWhl+pSIS2rTBcQ0RJkRCtTeRzQwHDA==
 
 minecraft-data@^3.0.0, minecraft-data@^3.1.1, minecraft-data@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.4.0.tgz#63a63316cc85475339de853d7a48e9a11771e64e"
-  integrity sha512-5KuRiS2ledyhCHyxRy6Rw4mvi9RxUJUXwt6Rt6G9K3mqAALLGiBlGPokScmntBYllk5A5IHNth7+UQa88rErEg==
+  version "3.76.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.76.0.tgz#c3aa96f8e6711f5a8aa024b894ec6c98b983ce8a"
+  integrity sha512-aqWonoe5h7to5iEfjUmG5r5F0K3FwrnF9c1YzxbALyOyRUujm2a/G5GJ4TfuoEslVp9dJ7OYVHLJfOS9aD/Twg==
 
 minecraft-folder-path@^1.2.0:
   version "1.2.0"
