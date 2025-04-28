@@ -10,7 +10,7 @@ if (isFeatureEnabled.mobsToKill === true) {
 		// Give itself a sword
 		bot.chat(`/give ${bot.username} iron_sword 1`);
 		setInterval(() => {
-			const mobFilter = e => e.type === 'mob' && e.mobType === "Zombie" || e.mobType === 'Skeleton';
+			const mobFilter = e => e.type === 'mob' && e.displayName === "Zombie" || e.displayName === 'Skeleton';
 			const mob = bot.nearestEntity(mobFilter);
 			if (!mob) return;
 			bot.pvp.attack(mob);
