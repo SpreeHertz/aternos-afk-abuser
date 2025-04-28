@@ -14,14 +14,17 @@ I'm not responsible for any damage caused by this software. Use it at your own r
 
 Note that this works on all servers.
 
+## Troubleshooting
+Make an [issue](https://github.com/SpreeHertz/aternos-afk-abuser/issues/). Please do specify necessary info. Don't expect a swift response. You can also check out the [core library issue page itself](https://github.com/PrismarineJS/mineflayer/issues/) and try troubleshooting by yourself if I don't respond. 
+
 ### Features
 
 - Randomly travels destinations to bypass AFK system
 - Kills aggressive mobs on the way
-- Automatically consumes food if food saturation is low
 - Turn off/on features by changing values in [features.json]()
 - Warns in the console if the bot gets crashed, kicked, or disconnected
 - Radar (that can be viewed with your web browser) that shows the nearest entities
+
 
 ### Chat Commands
 
@@ -29,6 +32,8 @@ Note that this works on all servers.
 
 Returns EXP points & level, food saturation and health.
 
+### Known bugs
+- Auto consuming food doesn't work
 
 ### Libraries
 
