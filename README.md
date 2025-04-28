@@ -1,4 +1,4 @@
-![img](https://img.shields.io/github/downloads/SpreeHertz/aternos-afk-abuser/v1.0.0/total)
+![img](https://img.shields.io/github/downloads/SpreeHertz/aternos-afk-abuser/v2.0.0/total)
 ![img](https://img.shields.io/github/v/release/SpreeHertz/aternos-afk-abuser)
 ![img](https://img.shields.io/github/release-date/spreehertz/aternos-afk-abuser)
 ![img](https://img.shields.io/github/last-commit/spreehertz/aternos-afk-abuser)
