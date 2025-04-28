@@ -26,9 +26,33 @@ host=lancer.aternos.me
 port=25565
 playername=lancer
 ```
+## Starting the bot locally
 
 
-## Extra Config
+Open the terminal using `Ctrl` + `Shift` + `. Type:
+
+```cmd
+yarn install
+```
+
+then, type:
+
+```cmd
+yarn add --dev nodemon
+```
+
+finally, to start the bot, type:
+
+```cmd
+yarn dev
+```
+
+If you run into any issues while doing this, don't hesitate to make an [issue](https://github.com/spreehertz/aternos-afk-abuser/issues).
+
+
+## Extra Config (optional)
+
+For web viewing (to see what your bot is doing on your browser), follow these steps.
 
 Open `config.json`. You'll see this:
 
@@ -47,25 +71,3 @@ Open `config.json`. You'll see this:
 - `webviewer_port`: The default port to see what the bot is doing using your web browser.
 
 
-## Starting the bot locally
-
-
-Open the terminal using `Ctrl` + `Shift` + `. Type:
-
-```cmd
-yarn
-```
-
-then, type:
-
-```cmd
-yarn add --dev nodemon
-```
-
-finally, to start the bot, type:
-
-```cmd
-yarn dev
-```
-
-If you run into any issues while doing this, don't hesitate to make an [issue](https://github.com/spreehertz/aternos-afk-abuser/issues).
