@@ -1,4 +1,4 @@
-## Prerequisites
+# Prerequisites
 
 - [Node.js](https://nodejs.org)
 - [Visual Studio Code](https://https://code.visualstudio.com)
@@ -69,5 +69,4 @@ Open `config.json`. You'll see this:
 - `radar_port`: The default port for Minecraft radar.
 - `radar_host`: The default host for Minecraft radar.
 - `webviewer_port`: The default port to see what the bot is doing using your web browser.
-
 
