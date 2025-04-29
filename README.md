@@ -15,7 +15,9 @@ I'm not responsible for any damage caused by this software. Use it at your own r
 Note that this works on all servers.
 
 ## Troubleshooting
-Make an [issue](https://github.com/SpreeHertz/aternos-afk-abuser/issues/). Please do specify necessary info. Don't expect a swift response. You can also check out the [core library issue page itself](https://github.com/PrismarineJS/mineflayer/issues/) and try troubleshooting by yourself if I don't respond. 
+1. Check out the [troubleshooting docs](https://aternos-afk-abuser.netlify.app/troubleshooting)
+2. Make an [issue](https://github.com/SpreeHertz/aternos-afk-abuser/issues/). Please do specify necessary info. Don't expect a swift response
+3. You can also check out the [core library issue page itself](https://github.com/PrismarineJS/mineflayer/issues/) and try troubleshooting by yourself if I don't respond. 
 
 ### Features
 
