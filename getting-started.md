@@ -49,6 +49,18 @@ yarn dev
 
 If you run into any issues while doing this, don't hesitate to make an [issue](https://github.com/spreehertz/aternos-afk-abuser/issues).
 
+# Run the bot 24/7
+1. Fork the [aternos-afk-abuser](https://github.com/spreehertz/aternos-afk-abuser) repository
+2. Update `.env.example` and specify your server address, port, and bot username.
+3. Rename `.env.example` to `.env`.
+4. Don't forget to commit these changes to your forked repository.
+5. Connect your repository on any of these services
+   - [Repl.it](https://replit.com/)
+   - [Glitch](https://glitch.com/)
+   - [Railway](https://railway.com/)
+
+These services are just suggestions for you to host your bot. You are not constrained to use only these services.
+Use the software at your own risk. The creator of aternos-afk-abuser is not responsible for any damages caused by this bot.
 
 ## Extra Config (optional)
 
