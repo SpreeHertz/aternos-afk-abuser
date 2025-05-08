@@ -4,15 +4,13 @@
 ![img](https://img.shields.io/github/last-commit/spreehertz/aternos-afk-abuser)
 ![img](https://img.shields.io/github/languages/code-size/spreehertz/aternos-afk-abuser)
 
+> [!IMPORTANT]
+> I'm not responsible for any damage caused by this software. Use it at your own risk. This was made for educational purposes only.
+> Note that this works on any server, not just Aternos servers.
+
 # aternos-afk-abuser
 
 aternos-afk-abuser abuses the AFK system and makes random actions to seem like it's not a bot. With this, you can bypass the Aternos system where if the server is AFK, it automatically turns the server off.
-
-## Before you use
-
-I'm not responsible for any damage caused by this software. Use it at your own risk. This was made for educational purposes only.
-
-Note that this works on all servers.
 
 ## Use case
 You can fork this repository, edit the `.env.example`, rename it to `.env` with your server address, host, and bot username, then host it on serivces like Repl.it, Railway or Glitch.  
