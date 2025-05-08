@@ -1,5 +1,7 @@
 {
     "radar_port": 2048,
     "radar_host": "localhost",
-    "webviewer_port": 5044
+    "webviewer_port": 5044,
+
+    "description": "This is optional. You can see what your bot is doing on your web browser by going to radar_host:webviewer_port on your web browser. (by default, it's localhost:5044)"
 }
