@@ -10,7 +10,7 @@ console.log(chalk.blueBright.bold(`Logging into ${process.env.playername}...`));
 const bot = mineflayer.createBot({
 	host: process.env.host || 'localhost',
 	port: parseInt(process.env.port) || '25565',
-	username: process.env.playername || 'aternos-afk',
+	username: process.env.playername || 'SMP_BOT',
 });
 
 module.exports = bot;
