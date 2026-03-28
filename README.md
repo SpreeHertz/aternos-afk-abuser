@@ -13,8 +13,32 @@
 aternos-afk-abuser abuses the AFK system and makes random actions to seem like it's not a bot. With this, you can bypass the Aternos system where if the server is AFK, it automatically turns the server off.
 
 ## Use case
-You can fork this repository, edit the `.env.example`, rename it to `.env` with your server address, host, and bot username, then host it on serivces like Repl.it, Railway or Glitch.  
-### Features
+You can fork this repository, edit the `.env.example`, rename it to `.env` with your server address, host, and bot username, then host it on serivces like Repl.it, Railway or Glitch or any other VPS of your choice to have maximum uptime.
+
+### Running the bot locally (as long as your PC is on)
+
+If yarn is not already installed:
+```
+npm install --global yarn
+```
+
+```
+yarn
+yarn add -g pm2
+pm2 start index.js
+pm2 save
+pm2 startup       
+```
+
+Read the [docs]((https://aternos-afk-abuser.netlify.app) for more info.
+
+### Testing
+```
+yarn
+yarn dev
+```
+
+## Features
 
 - Randomly travels destinations to bypass AFK system
 - Kills aggressive mobs on the way
