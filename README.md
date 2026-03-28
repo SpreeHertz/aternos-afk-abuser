@@ -19,8 +19,6 @@ You can fork this repository, edit the `.env.example`, rename it to `.env` with 
 - Randomly travels destinations to bypass AFK system
 - Kills aggressive mobs on the way
 - Warns in the console if the bot gets crashed, kicked, or disconnected
-- Radar (that can be viewed with your web browser) that shows the nearest entities
-
 
 ### Chat Commands
 - `!botinfo`
