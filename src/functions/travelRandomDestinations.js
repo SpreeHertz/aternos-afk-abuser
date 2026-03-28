@@ -13,6 +13,7 @@ const generateRandomCoords = (length) => {
 	for (let i = 0; i < length; i++) {
 		result += coordinateNumbers.charAt(Math.floor(Math.random() * coordinateLength));
 	}
+	console.log(result)
 	return result;
 };
 

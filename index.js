@@ -24,7 +24,7 @@ bot.once('spawn', () => {
 bot.on('end', () => {
 	console.log(chalk.redBright('warn') + chalk.red(' The bot disconnected. Attempting to reconnect...'));
 
-	setTimeout(bot, 5000);
+	setTimeout(5000);
 });
 
 
@@ -47,14 +47,14 @@ for (const file of eFiles) {
 	console.log(chalk.magentaBright(`Event ${eventName}.js`) + chalk.blue(` has been loaded.`));
 }
 
-const utilFiles = fs.readdirSync("./src/utils").filter(file => file.endsWith(".js"));
+// const utilFiles = fs.readdirSync("./src/utils").filter(file => file.endsWith(".js"));
 
-// Utils
-for (const file of utilFiles) {
-	const eventName = file.split(".")[0];
-	// eslint-disable-next-line no-unused-vars
-	const event = require(`./src/utils/${file}`);
-	console.log(chalk.yellowBright(`UtiltyFile ${eventName}.js`) + chalk.blue(` has been loaded.`));
-}
+// // Utils
+// for (const file of utilFiles) {
+// 	const eventName = file.split(".")[0];
+// 	// eslint-disable-next-line no-unused-vars
+// 	const event = require(`./src/utils/${file}`);
+// 	console.log(chalk.yellowBright(`UtiltyFile ${eventName}.js`) + chalk.blue(` has been loaded.`));
+// }
 
 // 0x26e
