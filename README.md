@@ -30,7 +30,7 @@ pm2 save
 pm2 startup       
 ```
 
-Read the [docs]((https://aternos-afk-abuser.netlify.app) for more info.
+Read the [docs](https://aternos-afk-abuser.netlify.app) for more info (not fully updated yet)
 
 ### Testing
 ```
