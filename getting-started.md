@@ -32,16 +32,10 @@ playername=lancer
 Open the terminal using `Ctrl` + `Shift` + `. Type:
 
 ```cmd
-yarn install
+yarn
 ```
 
-then, type:
-
-```cmd
-yarn add --dev nodemon
-```
-
-finally, to start the bot, type:
+To start the bot, type:
 
 ```cmd
 yarn dev
@@ -54,31 +48,11 @@ If you run into any issues while doing this, don't hesitate to make an [issue](h
 2. Update `.env.example` and specify your server address, port, and bot username.
 3. Rename `.env.example` to `.env`.
 4. Don't forget to commit these changes to your forked repository.
-5. Connect your repository on any of these services
+5. Connect your repository on any one of these services
    - [Repl.it](https://replit.com/)
    - [Glitch](https://glitch.com/)
    - [Railway](https://railway.com/)
 
 These services are just suggestions for you to host your bot. You are not constrained to use only these services.
 Use the software at your own risk. The creator of aternos-afk-abuser is not responsible for any damages caused by this bot.
-
-## Extra Config (optional)
-
-For web viewing (to see what your bot is doing on your browser), follow these steps.
-
-Open `config.json`. You'll see this:
-
-```json
-{
-    "radar_port": 3000,
-    "radar_host": "localhost",
-    "webviewer_port": 5000,
-    "webviewer_isFirstPerson": true
-}
-
-```
-
-- `radar_port`: The default port for Minecraft radar.
-- `radar_host`: The default host for Minecraft radar.
-- `webviewer_port`: The default port to see what the bot is doing using your web browser.
 
