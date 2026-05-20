@@ -1,7 +1,7 @@
-# Prerequisites
+# Prerequisites (for hosting locally)
 
 - [Node.js](https://nodejs.org)
-- [Visual Studio Code](https://https://code.visualstudio.com)
+- [Visual Studio Code](https://code.visualstudio.com/) (or any other code editor of your choice)
 
 ## Joining the server
 
