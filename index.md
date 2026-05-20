@@ -19,7 +19,7 @@ features:
     details: Kill mobs on its own.
   - title: Respawns 
     details: If dead, it doesn't sit on the main screen. It gets back to work.
-  - title: WebViewer
-    details: View what your bot is doing on the browser.
+  - title: Open source
+    details: You are free to read the code and modify this bot as per your requirements.
 ---
 
