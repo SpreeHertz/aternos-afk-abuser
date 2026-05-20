@@ -8,4 +8,4 @@ outline: deep
 Make sure the server is up and that you've configured the `.env` file properly.
 
 ### unsupported/unknown protocol version:
-Make sure Node.js is updated to v22 (needed for newer versions of Minecraft)
+Make sure Node.js is updated to the [latest LTS version](https://nodejs.org/en/download) (needed for newer versions of Minecraft)
